@@ -34,7 +34,7 @@ Statistics are automatically posted to your specified Telegram channel and updat
 ### Step 1: Clone the Repository
 
 ```bash
-git clone https://gitlab.com/shareui/gitstats.git
+git clone https://github.com/shareui/GitLab-statistic.git
 cd gitstats
 ```
 
