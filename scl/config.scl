@@ -1,0 +1,145 @@
+[ Telegram Bot Configuration ]
+
+telegram :: class {
+    bot_token :: str { "telegram_bot_token" }
+    target_channel_id :: num { 0 } [ channel bot api id ]
+}
+
+[ GitLab Configuration ]
+
+gitlab :: class {
+    private_token :: str { "GITLAB_PRIVATE_TOKEN" }
+    target_username :: str { "GITLAB_USERNAME" }
+}
+
+[ Scheduler Configuration ]
+
+scheduler :: class {
+    interval_hours :: num { 1 } [ Check interval in hours ]
+}
+
+[ Health Check Configuration ]
+
+health_check :: class {
+    port :: num { 8000 }
+}
+
+[ Display Settings ]
+
+display :: class {
+    max_displayed_languages :: num { 10 }
+    quote :: bool { true } [ Use quote formatting for languages list ]
+    force_message_id :: num { 43 } [ Set to 0 to disable forced message editing ]
+}
+
+[ Processing Limits ]
+
+limits :: class {
+    max_file_lines :: num { 10000 } [ Maximum lines to process per file ]
+}
+
+[ Language Map ]
+
+language_map :: class {
+    py :: str { "Python" }
+    js :: str { "JavaScript" }
+    ts :: str { "TypeScript" }
+    html :: str { "HTML" }
+    css :: str { "CSS" }
+    scss :: str { "SCSS" }
+    java :: str { "Java" }
+    c :: str { "C" }
+    cpp :: str { "C++" }
+    h :: str { "C" }
+    cs :: str { "C#" }
+    php :: str { "PHP" }
+    rb :: str { "Ruby" }
+    go :: str { "Go" }
+    swift :: str { "Swift" }
+    kt :: str { "Kotlin" }
+    sh :: str { "Shell" }
+    rs :: str { "Rust" }
+    vue :: str { "Vue" }
+    jsx :: str { "React JSX" }
+    tsx :: str { "React TSX" }
+    gd :: str { "GDscript" }
+    kts :: str { "Kotlin" }
+    nix :: str { "Nix" }
+    cr :: str { "Crystal" }
+    exs :: str { "Elixir" }
+    ex :: str { "Elixir" }
+    bash :: str { "Bash" }
+    toml :: str { "Rust" }
+    dart :: str { "Dart" }
+    lua :: str { "Lua" }
+    r :: str { "R" }
+    pl :: str { "Perl" }
+    pm :: str { "Perl" }
+    m :: str { "Objective-C" }
+    mm :: str { "Objective-C++" }
+    fs :: str { "F#" }
+    fsi :: str { "F# Interface" }
+    f90 :: str { "Fortran" }
+    f95 :: str { "Fortran" }
+    f03 :: str { "Fortran" }
+    f :: str { "Fortran" }
+    jl :: str { "Julia" }
+    scala :: str { "Scala" }
+    clj :: str { "Clojure" }
+    cljs :: str { "ClojureScript" }
+    coffee :: str { "CoffeeScript" }
+    v :: str { "Verilog" }
+    sv :: str { "SystemVerilog" }
+    vhd :: str { "VHDL" }
+    hs :: str { "Haskell" }
+    lhs :: str { "Literate Haskell" }
+    ml :: str { "OCaml" }
+    mli :: str { "OCaml Interface" }
+    erl :: str { "Erlang" }
+    hrl :: str { "Erlang Header" }
+    pas :: str { "Pascal" }
+    pp :: str { "Pascal" }
+    nim :: str { "Nim" }
+    zig :: str { "Zig" }
+    asm :: str { "Assembly" }
+    s :: str { "Assembly" }
+    ahk :: str { "AutoHotkey" }
+    awk :: str { "AWK" }
+    groovy :: str { "Groovy" }
+    vbs :: str { "VBScript" }
+    bas :: str { "BASIC" }
+    lisp :: str { "Lisp" }
+    el :: str { "Emacs Lisp" }
+    scm :: str { "Scheme" }
+    rkt :: str { "Racket" }
+    hx :: str { "Haxe" }
+    vala :: str { "Vala" }
+    pawn :: str { "Pawn" }
+    ps1 :: str { "PowerShell" }
+    tcl :: str { "Tcl" }
+    d :: str { "D" }
+    rex :: str { "Rexx" }
+    sql :: str { "SQL" }
+    pwn :: str { "Pawn" }
+    mcfunction :: str { "Minecraft Function" }
+    gml :: str { "GameMaker Language" }
+    gdns :: str { "Godot NativeScript" }
+    bf :: str { "Brainfuck" }
+    io :: str { "Io" }
+    4th :: str { "Forth" }
+    vb :: str { "Visual Basic" }
+    ada :: str { "Ada" }
+    adb :: str { "Ada Body" }
+    ads :: str { "Ada Spec" }
+    vert :: str { "GLSL" }
+    frag :: str { "GLSL" }
+    geom :: str { "GLSL" }
+    tesc :: str { "GLSL" }
+    tese :: str { "GLSL" }
+    comp :: str { "GLSL" }
+    glsl :: str { "GLSL" }
+    tscn :: str { "GDscene" }
+    scn :: str { "GDscene" }
+    crs :: str { "Crescenta" }
+    gdshader :: str { "GDshaders" }
+}
