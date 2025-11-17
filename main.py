@@ -3,7 +3,7 @@ import logging
 from datetime import datetime, timedelta
 from aiogram import Bot, Dispatcher
 from apscheduler.schedulers.asyncio import AsyncIOScheduler
-from aiohttp import web
+from aiohttp import web#cum
 # local modules
 from src.config import Config
 from src.gitlab_service import GitLabService
