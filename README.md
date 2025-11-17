@@ -46,59 +46,7 @@ pip install -r requirements.txt
 
 ### Step 3: Configure the Bot
 
-Create configuration file at `scl/config.scl`:
-
-```scl
-telegram {
-    bot_token = "YOUR_TELEGRAM_BOT_TOKEN"
-    target_channel_id = -1001234567890
-}
-
-gitlab {
-    private_token = "YOUR_GITLAB_PRIVATE_TOKEN"
-    target_username = "your_gitlab_username"
-}
-
-scheduler {
-    interval_hours = 24
-}
-
-health_check {
-    port = 8000
-}
-
-display {
-    max_displayed_languages = 10
-    quote = true
-    force_message_id = 0
-}
-
-limits {
-    max_file_lines = 10000
-}
-
-language_map {
-    py = "Python"
-    js = "JavaScript"
-    ts = "TypeScript"
-    java = "Java"
-    kt = "Kotlin"
-    cpp = "C++"
-    c = "C"
-    cs = "C#"
-    go = "Go"
-    rs = "Rust"
-    php = "PHP"
-    rb = "Ruby"
-    swift = "Swift"
-    html = "HTML"
-    css = "CSS"
-    scss = "SCSS"
-    sql = "SQL"
-    sh = "Shell"
-    md = "Markdown"
-}
-```
+Create configuration file at `scl/config.scl`
 
 ### Step 4: Get Required Tokens
 
