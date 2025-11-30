@@ -1,3 +1,5 @@
+new version: https://github.com/shareui/tele-stats
+
 # GitLab Statistics Bot
 
 A Telegram bot that automatically collects and displays programming language statistics from your GitLab repositories.
